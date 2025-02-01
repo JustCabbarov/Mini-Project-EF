@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\exceptions\\invalidimputexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:exceptions\\invalidimputexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\dtos\\bookdto\\createdbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:dtos\\bookdto\\createdbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\dtos\\bookdto\\getallbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:dtos\\bookdto\\getallbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\dtos\\bookdto\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:dtos\\bookdto\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\source\\repos\\mini project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatedBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\DTOs\\BookDtO\\CreatedBookDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookDtO\\CreatedBookDTO.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\DTOs\\BookDtO\\CreatedBookDTO.cs",
+              "RelativeToolTip": "DTOs\\BookDtO\\CreatedBookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T15:15:25.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvalidImputException.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Exceptions\\InvalidImputException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidImputException.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Exceptions\\InvalidImputException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidImputException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:36:33.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:17:35.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Services\\Implementations\\BookService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\BookService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Services\\Implementations\\BookService.cs",
+              "RelativeToolTip": "Services\\Implementations\\BookService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:12:38.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\DTOs\\BookDtO\\UpdateBookDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookDtO\\UpdateBookDTO.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\DTOs\\BookDtO\\UpdateBookDTO.cs",
+              "RelativeToolTip": "DTOs\\BookDtO\\UpdateBookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:05:15.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "RelativeToolTip": "DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:00:11.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Services\\Interfaces\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Services\\Interfaces\\IBookService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:34:03.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Huawei\\source\\repos\\Mini Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:54:18.451Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
