@@ -10,9 +10,9 @@ namespace Mini_Project.Services.Interfaces
 {
     public interface IBookService
     {
-        void Add(CreatedBookDTO createdBookDTO);
+        void AddBook(CreatedBookDTO createdBookDTO);
         List<GetAllBookDTO> GettAll();
-        void Remove(int Id);
-        void Update (int Id, UpdateBookDTO updateBookDTO);
+        void RemoveBook(int Id);
+        void UpdateBook (int Id, UpdateBookDTO updateBookDTO);
     }
 }

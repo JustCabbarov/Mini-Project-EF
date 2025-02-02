@@ -9,5 +9,7 @@ namespace Mini_Project.Repositories.Interfaces
 {
     public interface IBorrowerRepository : IGenericRepository<Borrower>
     {
+        List<Borrower> GetAll();
+        Borrower GetById(int id);
     }
 }

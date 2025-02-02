@@ -10,8 +10,10 @@ namespace Mini_Project.Repositories.Interfaces
    public interface IGenericRepository <T> where T : BaseEntity , new() 
     {
         void Add(T entity);
-        List<T> GettAll();
+    
         void Remove(T entity);
+
+        
         void Commit();
     }
 }

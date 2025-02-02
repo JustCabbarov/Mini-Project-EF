@@ -9,6 +9,7 @@ namespace Mini_Project.Repositories.Interfaces
 {
     public interface IBookRepository :IGenericRepository<Book> 
     {
-
+        List<Book> GetAll();
+        Book GetById(int id);
     }
 }

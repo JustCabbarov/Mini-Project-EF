@@ -9,5 +9,7 @@ namespace Mini_Project.Repositories.Interfaces
 {
     public interface ILoanRepository : IGenericRepository<Loan>
     {
+        List<Loan> GetAll();
+        Loan GetById(int id);
     }
 }

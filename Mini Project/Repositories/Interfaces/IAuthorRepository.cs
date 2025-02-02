@@ -9,5 +9,8 @@ namespace Mini_Project.Repositories.Interfaces
 {
     public interface IAuthorRepository : IGenericRepository<Author> 
     {
+        List<Author> GetAll();
+
+        Author GetById(int id);
     }
 }

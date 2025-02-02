@@ -20,8 +20,7 @@ namespace Mini_Project.Repositories.Implementations
         public void Commit()
         => _appDbContext.SaveChanges();
 
-        public List<T> GettAll()
-        => _appDbContext.Set<T>().ToList();
+       
         public void Remove(T entity)
        => _appDbContext.Set<T>().Remove(entity);
 
