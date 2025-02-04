@@ -21,28 +21,36 @@ namespace Mini_Project.Services.Implementations
             if (AuthorDTO == null) throw new InvalidImputException("Imput Can not Be Null");
             if (string.IsNullOrWhiteSpace(AuthorDTO.Name)) throw new InvalidImputException("Imput Can not Be Null");
             IAuthorRepository authorRepository = new AuthorRepository();
-           
+
             Author author = new Author()
             {
                 Name = AuthorDTO.Name,
-                
+                CreateAt = DateTime.UtcNow.AddHours(4),
+                UpdateAt = DateTime.UtcNow.AddHours(4),
+                IsDeleted=false,
+
             };
+
           authorRepository.Add(author);
-            authorRepository.Commit();
+           authorRepository.Commit();
         }
 
         public List<GetAllAuthorDTO> GetAllAuthors()
         {
             IAuthorRepository authorRepository = new AuthorRepository();
-            var authors=authorRepository.GetAll();
+            var authors=authorRepository.GetAll().Where(x=>x.IsDeleted==false).ToList();
             if (authors.Count == 0) throw new InvalidDataException ("There are 0 Authors in Library");
             if (authors == null) throw new InvalidDataException("Books Not Found");
+           
             List<GetAllAuthorDTO> authorDTO = new List<GetAllAuthorDTO>();
            
             authorDTO = authors.Select(x => new GetAllAuthorDTO()
             {
+               Id = x.Id,
                Name=x.Name,
                Books=x.Books.Select(x=>x.Title).ToList()
+               
+               
                
             }).ToList();
 
@@ -55,7 +63,7 @@ namespace Mini_Project.Services.Implementations
             IAuthorRepository authorRepository= new AuthorRepository();
             var data =authorRepository.GetById(Id);
             if (data == null) throw new InvalidDataException("Author Dont Found");
-            data.IsDeleted=true;
+             authorRepository.Remove(data);
             authorRepository.Commit();
 
         }
@@ -66,8 +74,11 @@ namespace Mini_Project.Services.Implementations
             if (AuthorDTO == null) throw new InvalidImputException("Imput Can Not be Null");
             if (string.IsNullOrEmpty(AuthorDTO.Name)) throw new InvalidImputException("Name Can Not Be NUll");
             IAuthorRepository authorRepository = new AuthorRepository();
-            var data= authorRepository.GetById(Id);
+           
+            var data= authorRepository.GetById(Id) ?? throw new InvalidDataException("Author Dont Found");
+            
             data.Name = AuthorDTO.Name;
+            data.UpdateAt = DateTime.UtcNow.AddHours(4);
             authorRepository.Commit();
         }
     }

@@ -56,7 +56,7 @@ namespace Mini_Project.Services.Implementations
                 Description = x.Description,
                 PublishedYear = x.PublishedYear,
                 Authors = x.Authors.Select(n => n.Name).ToList(),
-
+                
 
             }).ToList();
             return result;
