@@ -70,7 +70,7 @@ namespace Mini_Project.Services.Implementations
 
         public void UpdateAuthor(int Id, UpdateAuthorDTO AuthorDTO)
         {
-            if (Id < 1) throw new InvalidImputException("Id Must Be Bigger Than 1");
+            
             if (AuthorDTO == null) throw new InvalidImputException("Imput Can Not be Null");
             if (string.IsNullOrEmpty(AuthorDTO.Name)) throw new InvalidImputException("Name Can Not Be NUll");
             IAuthorRepository authorRepository = new AuthorRepository();

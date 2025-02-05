@@ -7,10 +7,13 @@ using Mini_Project.Models;
 
 namespace Mini_Project.DTOs.BorrowerDTO
 {
-    public class GetAllBorrower
+    public class GetAllBorrowerDTO
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
+        
+       
 
     }
 }

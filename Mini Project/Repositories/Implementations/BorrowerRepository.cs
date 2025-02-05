@@ -20,7 +20,7 @@ namespace Mini_Project.Repositories.Implementations
         }
         public List<Borrower> GetAll()
         {
-           return _appDbContext.Borrowers.Include(x=>x.Loans).ToList();
+           return _appDbContext.Borrowers.Where(x=>!x.IsDeleted).Include(x=>x.Loans).ToList();
         }
 
         public Borrower GetById(int id)

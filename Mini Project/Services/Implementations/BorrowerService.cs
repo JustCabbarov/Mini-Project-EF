@@ -34,18 +34,18 @@ namespace Mini_Project.Services.Implementations
             borroverRepository.Commit();
         }
 
-        public List<GetAllBorrower> GetAllBorrower()
+        public List<GetAllBorrowerDTO> GetAllBorrower()
         {
             IBorrowerRepository borroverRepository = new BorrowerRepository();
             var data = borroverRepository.GetAll();
             if (data == null) throw new InvalidDataException("Borrowers Dont Found");
-            List<GetAllBorrower> AllBorrowers = new List<GetAllBorrower>();
-            AllBorrowers = data.Select(x => new GetAllBorrower()
+            List<GetAllBorrowerDTO> AllBorrowers = new List<GetAllBorrowerDTO>();
+           AllBorrowers= data.Select(x=>new GetAllBorrowerDTO
             {
-                Name = x.Name,
-                Email = x.Email,
-               
-                
+                  Id = x.Id,
+                  Email = x.Email,
+                  Name = x.Name,    
+                  
             }).ToList();
             
             return AllBorrowers;
@@ -55,9 +55,9 @@ namespace Mini_Project.Services.Implementations
         {
             if (Id < 1) throw new InvalidImputException("Id Can Not Be Null");
             IBorrowerRepository borrowerRepository = new BorrowerRepository();
-            var data = borrowerRepository.GetById(1);
+            var data = borrowerRepository.GetById(Id);
             if (data == null) throw new InvalidDataException("Borrower Not Found");
-            data.IsDeleted = true;
+            borrowerRepository.Remove(data);
             borrowerRepository.Commit();
         }
 
@@ -72,6 +72,7 @@ namespace Mini_Project.Services.Implementations
             data.Name = borrowerDTO.Name;
             data.Email = borrowerDTO.Email;
             data.UpdateAt = DateTime.UtcNow.AddHours(4);
+            
             borrowerRepository.Commit();
         }
     }

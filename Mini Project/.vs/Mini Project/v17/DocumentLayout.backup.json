@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\services\\implementations\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:services\\implementations\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\dtos\\bookdto\\getallbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:dtos\\bookdto\\getallbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\repositories\\implementations\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:repositories\\implementations\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\dtos\\authordto\\getallauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:dtos\\authordto\\getallauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\dtos\\authordto\\createauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:dtos\\authordto\\createauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|c:\\users\\huawei\\desktop\\project\\mini project\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658FD32-7588-4943-8DBC-E275FB05C4E7}|Mini Project.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,49 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Repositories\\Implementations\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Repositories\\Implementations\\GenericRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\GenericRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T13:08:37.177Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Services\\Implementations\\AuthorService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\AuthorService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Services\\Implementations\\AuthorService.cs",
-              "RelativeToolTip": "Services\\Implementations\\AuthorService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAIwEEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:51:02.38Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Services\\Implementations\\BookService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\BookService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Services\\Implementations\\BookService.cs",
-              "RelativeToolTip": "Services\\Implementations\\BookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T14:22:51.102Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -95,54 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Repositories\\Implementations\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\AuthorRepository.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Repositories\\Implementations\\AuthorRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\AuthorRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T13:08:31.132Z",
+              "WhenOpened": "2025-02-05T14:25:06.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Services\\Implementations\\BookService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\BookService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Services\\Implementations\\BookService.cs",
+              "RelativeToolTip": "Services\\Implementations\\BookService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:06:49.375Z",
+              "WhenOpened": "2025-02-05T14:15:44.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetAllAuthorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\DTOs\\AuthorDTO\\GetAllAuthorDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AuthorDTO\\GetAllAuthorDTO.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\DTOs\\AuthorDTO\\GetAllAuthorDTO.cs",
-              "RelativeToolTip": "DTOs\\AuthorDTO\\GetAllAuthorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GetAllBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "RelativeToolTip": "DTOs\\BookDtO\\GetAllBookDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:32:19.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateAuthorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
-              "RelativeToolTip": "DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:02:22.43Z",
+              "WhenOpened": "2025-02-05T14:14:15.501Z",
               "EditorCaption": ""
             },
             {
@@ -153,7 +83,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\Project\\Mini Project\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwBsBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALwDAAAAAAAAAAAMwL8DAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T11:54:18.451Z",
               "EditorCaption": ""

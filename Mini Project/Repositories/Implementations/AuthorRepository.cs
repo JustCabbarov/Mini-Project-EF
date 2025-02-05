@@ -19,12 +19,12 @@ namespace Mini_Project.Repositories.Implementations
         }
         public List<Author> GetAll()
         {
-          return _appDbContext.Authors.Include(x=>x.Books).ToList();
+          return _appDbContext.Authors.Where(x=>!x.IsDeleted).Include(x=>x.Books).ToList();
         }
 
         public Author GetById(int id)
         {
-           return _appDbContext.Authors.FirstOrDefault(x => x.Id == id);
+           return _appDbContext.Authors.Where(x => !x.IsDeleted).FirstOrDefault(x => x.Id == id);
         }
     }
 }

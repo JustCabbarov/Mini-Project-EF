@@ -12,7 +12,7 @@ namespace Mini_Project.Services.Interfaces
     {
 
         void AddBorrower(CreateBorrowerDTO createBorrower);
-        List<GetAllBorrower> GetAllBorrower();
+        List<GetAllBorrowerDTO> GetAllBorrower();
         void RemoveBorrower(int Id);
         void UpdateBorrower(int Id, UpdateBorrowerDTO AuthorDTO);
     }
